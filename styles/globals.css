@@ -1,0 +1,39 @@
+@import url("//db.onlinewebfonts.com/c/a8ba6f94174cce25e3e649102351f3eb?family=Sporting+Grotesque");
+@import url("//db.onlinewebfonts.com/c/2f86dc938a55788d3416b876b43a116a?family=Poppins");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-sporting-grotesque {
+	font-family: "Sporting Grotesque", sans-serif;
+}
+.font-poppins {
+	font-family: "Poppins", sans-serif;
+}
+
+@layer base {
+	body {
+		@apply bg-[#E5E5E5];
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-sporting-grotesque;
+	}
+	p {
+		@apply font-poppins;
+	}
+	h1 {
+		@apply text-6xl;
+	}
+	h2 {
+		@apply text-5xl;
+	}
+	h3 {
+		@apply text-xl;
+	}
+}
