@@ -23,9 +23,9 @@ function Product() {
 					<div className="flex flex-row col-auto space-x-8 py-4">
 						<a
 							href="#"
-							className="flex flex-row justify-between bg-navy-blue text-white rounded-md p-2"
+							className="flex flex-row justify-between w-1/2 shadow-3xl  bg-navy-blue text-white rounded-md p-2"
 						>
-							<div href="#" className="mr-4">
+							<div href="#" className="mr-4 ">
 								Get Started
 							</div>
 
@@ -38,7 +38,7 @@ function Product() {
 						</a>
 						<a
 							href="#"
-							className="flex flex-row justify-between text-navy-blue bg-white rounded-md p-2"
+							className="flex flex-row justify-between w-1/3 shadow-3xl text-navy-blue bg-white rounded-md p-2"
 						>
 							<div>
 								<Image
@@ -55,19 +55,54 @@ function Product() {
 							</div>
 						</a>
 					</div>
-					<div className="py-10">
+					<div className="py-10 space-y-3">
 						<p>Brands:</p>
-						<div className="flex flex-row justify-between">
-							<Image src="/nike.png" alt="nike" width={70} height={27} />
-							<Image src="/addidas.png" alt="addidas" width={53} height={54} />
-							<Image src="/puma.png" alt="puma" width={80} height={41} />
-							<Image src="/reebok.png" alt="reebock" width={119} height={30} />
+						<div className="flex flex-row justify-between ">
+							<Image src="/nike.png" alt="nike" width="58" height="27" />
+							<Image src="/addidas.png" alt="addidas" width="53" height="54" />
+							<Image src="/puma.png" alt="puma" width="80" height="41" />
+							<Image src="/reebok.png" alt="reebock" width="119" height="30" />
 						</div>
 					</div>
 				</div>
 			</div>
 
 			<div className="items-center">
+				{/* <div>
+					<div className="rounded-full  bg-gradient-to-r from-[#4BACE1] to-[#D8F1FF]">
+						<Image
+							src="/stretching.png"
+							alt="streching"
+							width="33"
+							height="35"
+						/>
+					</div>
+					<div className="rounded-full  bg-gradient-to-r from-[#F8A422] to-[#FEDEAC]  ">
+						<Image
+							src="/dancer-motion.png"
+							alt="streching"
+							width="33"
+							height="35"
+						/>
+						<div>150 members</div>
+					</div>
+					<div className="rounded-full  bg-gradient-to-r from-[#5478EF] to-[#D6DFFF]  ">
+						<Image
+							src="/person-practicing-a-strengthen-posture.png"
+							alt="streching"
+							width="33"
+							height="35"
+						/>
+					</div>
+					<div className="rounded-full  bg-gradient-to-r from-[#F8A422] to-[#FEDEAC]  ">
+						<Image
+							src="/stretching.png"
+							alt="streching"
+							width="33"
+							height="35"
+						/>
+					</div>
+				</div> */}
 				<Image src="/image77.jpg" width="358" height="580" alt="Gym Product" />
 			</div>
 		</div>
