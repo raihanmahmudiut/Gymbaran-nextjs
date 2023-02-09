@@ -3,11 +3,8 @@ import Image from "next/image";
 
 function Product3() {
 	return (
-		<div className="flex flex-col md:flex-row col-auto justify-between w-full ">
-			<div>
-				<Image src="/image78.jpg" width={250} height={500} alt="gym image" />
-			</div>
-			<div className="w-1/2">
+		<div className="flex flex-col md:flex-row space-y-16 justify-between w-full ">
+			<div className=" w-full md:w-1/2 space-y-12 ">
 				<div>
 					<h2>Best full body workout to lose fat</h2>
 				</div>
@@ -22,7 +19,7 @@ function Product3() {
 
 				<a
 					href="#"
-					className="flex flex-row justify-between  bg-navy-blue text-white rounded-md p-2"
+					className="flex flex-row justify-between w-1/2 md:w-1/3 shadow-3xl items-center bg-navy-blue text-white rounded-md p-4"
 				>
 					<p>Get Started</p>
 					<div>
@@ -34,6 +31,9 @@ function Product3() {
 						/>
 					</div>
 				</a>
+			</div>
+			<div className="w-full md:w-1/2 items-center order-last md:order-first ">
+				<Image src="/image78.jpg" width="416" height="496" alt="gym image" />
 			</div>
 		</div>
 	);

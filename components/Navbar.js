@@ -4,8 +4,8 @@ import Image from "next/image";
 
 function Navbar() {
 	return (
-		<div className="fixed w-full h-20 shadow-xl text-black">
-			<div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+		<div className="fixed w-full h-20 shadow-xl md:shadow-none text-black">
+			<div className="flex justify-between items-center w-full h-full px-2">
 				<div>
 					<span className="bg-light-violet text-white rounded-md items-center p-1">
 						Gym
@@ -30,7 +30,7 @@ function Navbar() {
 							Login
 						</button>
 					</ul>
-					<div className="md:hidden mr-4">
+					<div className="md:hidden mr-7">
 						<Image src="/Vector (3).png" alt="menubar" width={18} height={16} />
 					</div>
 				</div>
