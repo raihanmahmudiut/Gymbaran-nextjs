@@ -11,16 +11,12 @@ function Product2() {
 						src="/Rectangle 195.png"
 						width="100"
 						height="100"
-						width="100"
-						height="100"
 						alt="rectangle"
 						className="absolute"
 					/>
 					<Image
 						src="/crucified-pose.png"
 						alt="crucified-pose"
-						width="38"
-						height="50"
 						width="38"
 						height="50"
 						className="absolute"
@@ -31,14 +27,11 @@ function Product2() {
 					<h3>Get that 11 line in 30 days</h3>
 
 					<a href="#" className="flex flex-row  opacity-20 justify-between">
-					<a href="#" className="flex flex-row  opacity-20 justify-between">
 						<p>Learn More</p>
 						<div className="mt-2">
 							<Image
 								src="/ArrowRight.png"
 								alt="arrowright"
-								width="15"
-								height="15"
 								width="15"
 								height="15"
 							/>
@@ -52,16 +45,12 @@ function Product2() {
 						src="/Rectangle 195.png"
 						width="100"
 						height="100"
-						width="100"
-						height="100"
 						alt="rectangle"
 						className="absolute"
 					/>
 					<Image
 						src="/dancer-balance.png"
 						alt="dancer-balance"
-						width="38"
-						height="50"
 						width="38"
 						height="50"
 						className="absolute"
@@ -78,8 +67,6 @@ function Product2() {
 								alt="arrowright"
 								width="15"
 								height="15"
-								width="15"
-								height="15"
 							/>
 						</div>
 					</a>
@@ -92,16 +79,12 @@ function Product2() {
 						src="/Rectangle 195.png"
 						width="100"
 						height="100"
-						width="100"
-						height="100"
 						alt="rectangle"
 						className="absolute"
 					/>
 					<Image
 						src="/dancer-motion.png"
 						alt="dancer-motion"
-						width="38"
-						height="50"
 						width="38"
 						height="50"
 						className="absolute"
@@ -116,8 +99,6 @@ function Product2() {
 							<Image
 								src="/ArrowRight.png"
 								alt="arrowright"
-								width="15"
-								height="15"
 								width="15"
 								height="15"
 							/>
