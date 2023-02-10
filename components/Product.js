@@ -26,7 +26,6 @@ function Product() {
 							className="flex flex-row justify-between w-4/5 md:w-1/2 min:w-16 min:h-14 shadow-3xl  bg-navy-blue text-white rounded-md p-2"
 						>
 							<div href="#" className="mr-4 ">
-							<div href="#" className="mr-4 ">
 								Get Started
 							</div>
 
@@ -56,14 +55,9 @@ function Product() {
 							</div>
 						</a>
 					</div>
-					<div className="py-10 space-y-3">
+
 					<div className="py-10 space-y-3">
 						<p>Brands:</p>
-						<div className="flex flex-row justify-between ">
-							<Image src="/nike.png" alt="nike" width="58" height="27" />
-							<Image src="/addidas.png" alt="addidas" width="53" height="54" />
-							<Image src="/puma.png" alt="puma" width="80" height="41" />
-							<Image src="/reebok.png" alt="reebock" width="119" height="30" />
 						<div className="flex flex-row justify-between ">
 							<Image src="/nike.png" alt="nike" width="58" height="27" />
 							<Image src="/addidas.png" alt="addidas" width="53" height="54" />
@@ -73,8 +67,7 @@ function Product() {
 					</div>
 				</div>
 			</div>
-
-			<div className="flex items-right ">
+			<div className="flex items-center ">
 				{/* <div>
         <div className="rounded-full  bg-gradient-to-r from-[#4BACE1] to-[#D8F1FF]">
             <Image
